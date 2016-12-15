@@ -1,0 +1,42 @@
+<!-- views/pages/editClothes.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+  <link href="css/singleclothe.css" rel="stylesheet" type="text/css">
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="clothe">
+
+            <ul>
+              <form action='editClothe?id=<%=clothe.id%>' method='post'>  
+                <li><img src='<%= clothe.imgPath %>' height="220" width="200"></li>
+                <li>RFID: <%= clothe.id %></li><br>
+                <li>Name: <input type='text' value='<%= clothe.name %>' name='name'/></li><br>
+                <li>Season:  <select name='season' required>
+                      <option value='Summer'>Summer</option>
+                      <option value='Autumn'>Autumn</option>
+                      <option value='Winter'>Winter</option>
+                      <option value='Spring'>Spring</option>
+                   </select><br></li><br>
+                <li>Last time worn: <%= clothe.lastTimeWorn %></li><br>
+                <li>How many times it has been worn: <%= clothe.howManyTimesWorn %></li><br>
+                <li>Is Here?: <%= clothe.isHere %></li><br>
+                <li>Additional Info (if given): <input type='text' value='<%=clothe.additionalInfo%>' name='additionalInfo' ></li><br>
+                <li><input type='submit' value='Edit'/></li>
+              </form>
+            </ul>
+
+        </div>
+    </main>
+
+</body>
+</html>
+

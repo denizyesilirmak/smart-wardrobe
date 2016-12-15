@@ -1,0 +1,49 @@
+<!-- views/pages/newClothes.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+  <link href="css/newClothe.css" rel="stylesheet" type="text/css">
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+
+        <form action='/newClothes' method='post' enctype='multipart/form-data'>
+            <div class='newClothe'>
+              <fieldset>
+                  <legend>New Clothe!</legend>
+                  <p><label for="id" class='field'><span>*</span>RFID:</label>
+                  <input type='text' name='id' value=<%= rfid %> class='textbox-300' required></p>
+                  
+                  <p><label for="displayImage" class='field'><span>*</span>Image:</label>
+                  <input type='file' name='displayImage' accept='image/*' class='textbox-300' required></p>
+                  
+                  <p><label for="name" class='field'><span>*</span>Name:</label>
+                  <input type='text' name='name' class='textbox-300' required></p><br><br><br><br>
+                  
+                  <p><label for="season" class='field'><span>*</span>Season:</label>
+                  <p><select name='season' class='textbox-300' required>
+                          <option value='Summer'>Summer</option>
+                          <option value='Autumn'>Autumn</option>
+                          <option value='Winter'>Winter</option>
+                          <option value='Spring'>Spring</option>
+                  </select></p>
+                  
+                  <p><label for="additionalInfo" class='field'>Additional Info:</label>
+                  <input type='text' name='additionalInfo' class='textbox-300'></p>
+                  
+                  <p><label for="button" class='field'></label>
+                  <input class='textbox-300' type='submit' name='button' value='Accept'/></p>
+              </fieldset>
+            </div>
+        </form> 
+
+
+</body>
+</html>
+

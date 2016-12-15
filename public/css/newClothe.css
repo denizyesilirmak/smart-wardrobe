@@ -1,0 +1,45 @@
+fieldset {
+	border: none;
+	margin: 0 0 0 -10px;
+	padding: -10px;
+}
+
+legend {
+	text-align: center;
+	font-size: 28px;
+	background-color: #333333;
+	color: white;
+	width: 100%;
+	padding: 5px;
+}
+
+label.field {
+	text-align: right;
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+
+input.textbox-300 {
+	width: 300px;
+	float: left;
+}
+
+fieldset label {
+	clear: both;
+	padding: 5px;
+}
+
+div.newClothe {
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	border: solid black thin;
+	width: 500px;
+	background-color: #999999;
+}
+
+label span, .required {
+	color: red;
+	font-weight: bold;
+}

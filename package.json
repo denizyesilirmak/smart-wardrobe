@@ -1,0 +1,20 @@
+{
+	"name": "smart-wardrobe",
+	"description": "smart wardrobe restful service",
+	"version": "0.0.1",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.14.0",
+		"lowdb": "0.14.0",
+		"ejs": "2.5.3",
+		"request": "2.79.0",
+		"forecast": "0.3.2",
+		"body-parser": "1.15.2",
+		"morgan": "1.7.0",
+		"multer": "1.2.0"
+	},
+	"repository": "https://github.com/finderskeepers/smart-wardrobe",
+	"license": "GPL-3.0"
+}

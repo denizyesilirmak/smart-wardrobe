@@ -1,0 +1,35 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="notifications">
+          
+          <% notifications.forEach(function(notification) { %>
+
+            <ul>
+              <li><b><%= notification.time %></b> - 
+                  <a href='/clothe?id=<%= notification.clotheId %>' > <%=notification.msg %> </a>
+              </li>
+
+            </ul>
+
+          <% }); %>
+
+        </div>
+    </main>
+
+</body>
+</html>
+

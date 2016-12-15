@@ -1,0 +1,41 @@
+<!-- views/pages/clothes.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+  <link href="css/clothes.css" rel="stylesheet" type="text/css">
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="clothes">
+
+          <% clothes.forEach(function(clothe) { %>
+            
+            <ul>
+            
+            <li><img src='<%= clothe.imgPath %>' height="220" width="200"></li><br>
+            <li>RFID: <%= clothe.id %></li><br>
+            <li>Name: <%= clothe.name %></li><br>
+            <li>Season: <%= clothe.season %></li><br>
+            <li>Last time worn: <%= clothe.lastTimeWorn %></li><br>
+            <li>How many times it has been worn: <%= clothe.howManyTimesWorn %></li><br>
+            <li>Is Here?: <%= clothe.isHere %></li><br>
+            <li>Additional Info (if given): <%= clothe.additionalInfo %></li><br>
+            <div id='button'><a href='/editClothe?id=<%=clothe.id%>'>Edit</a> <a href='/deleteClothe?id=<%=clothe.id%>'>Delete</a></div>
+
+            </ul>
+
+          <% }); %>
+
+        </div>
+    </main>
+    
+</body>
+</html>
+

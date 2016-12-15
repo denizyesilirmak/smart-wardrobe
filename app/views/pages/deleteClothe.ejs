@@ -1,0 +1,38 @@
+<!-- views/pages/deleteClothes.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+  <link href="css/singleclothe.css" rel="stylesheet" type="text/css">
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="clothe">
+
+            <ul>
+            
+              <form action='deleteClothe?id=<%=clothe.id%>' method='post'>
+                <li><img src='<%= clothe.imgPath %>' height="220" width="200"></li>
+                <li name='id'>RFID: <%= clothe.id %></li><br>
+                <li>Name: <%= clothe.name %></li><br>
+                <li>Season: <%= clothe.season %></li><br>
+                <li>Last time worn: <%= clothe.lastTimeWorn %></li><br>
+                <li>How many times it has been worn: <%= clothe.howManyTimesWorn %></li><br>
+                <li>Is Here?: <%= clothe.isHere %></li><br>
+                <li>Additional Info (if given): <%= clothe.additionalInfo %></li><br>
+                <li><input type='submit' value='Delete'/></li>
+              </form> 
+            </ul>
+
+        </div>
+    </main>
+    
+</body>
+</html>
+

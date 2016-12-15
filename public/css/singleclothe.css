@@ -1,0 +1,37 @@
+div.clothe {
+  text-align: center;
+}
+
+div.clothe ul {
+  list-style-type: none;
+}
+
+div.clothe ul li {
+  display: block;
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+ 	letter-spacing:0.1em;
+ 	text-align:center;
+ 	margin: 0px auto;
+ 	text-transform: lowercase;
+ 	line-height: 100%;
+ 	font-size: 14pt;
+ 	font-variant: small-caps;
+}
+
+.button {
+	text-align: center;
+}
+
+.button a {
+	text-decoration: none;
+	background-color: #333333; 
+	font-size: 13px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding: 4px;
+  color: #ffffff;
+}
+
+.button a:visited {
+	color: #ffffff;
+}

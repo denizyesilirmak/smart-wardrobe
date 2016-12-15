@@ -1,0 +1,23 @@
+div.notifications {
+	text-align: center;
+}
+
+div.notifications ul {
+	list-style-type: none;
+  margin: 0.6em;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.notifications ul li {
+
+}
+
+div.notifications ul li a {
+	font-style: italic;
+	text-decoration: none;
+}
+
+div.notifications ul li a:visited {
+	color: #111111;
+}

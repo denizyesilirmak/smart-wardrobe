@@ -1,0 +1,64 @@
+{
+  "clothes": [
+    {
+      "id": "22222222",
+      "imgPath": "/clothes_images/30737372ad33aa79728b830b149fafac",
+      "name": "burak",
+      "season": "Winter",
+      "lastTimeWorn": "14:19:35 12-11-2016",
+      "isHere": "inside",
+      "additionalInfo": "rr",
+      "howManyTimesWorn": 3
+    },
+    {
+      "id": "22322222",
+      "imgPath": "/clothes_images/103055db5d3c9eb3ff493285067dbac6",
+      "name": "ccc",
+      "season": "Summer",
+      "lastTimeWorn": "14:19:43 12-11-2016",
+      "isHere": "taken",
+      "additionalInfo": "",
+      "howManyTimesWorn": 1
+    },
+    {
+      "id": "12222222",
+      "imgPath": "/clothes_images/a9a8872e87e4efd6179a7ecf95520bc9",
+      "name": "aasd",
+      "season": "Summer",
+      "lastTimeWorn": "14:19:51 12-11-2016",
+      "isHere": "inside",
+      "additionalInfo": "",
+      "howManyTimesWorn": 0
+    },
+    {
+      "id": "23222222",
+      "imgPath": "/clothes_images/a9578073ed04961bf0639f92fe265a1a",
+      "name": "aa",
+      "season": "Winter",
+      "lastTimeWorn": "14:21:12 12-11-2016",
+      "isHere": "inside",
+      "additionalInfo": "",
+      "howManyTimesWorn": 0
+    },
+    {
+      "id": "12121212",
+      "imgPath": "/clothes_images/f7f4a44eb1d0a01dbfa8d2549693a3b0",
+      "name": "burak",
+      "season": "Autumn",
+      "lastTimeWorn": "14:32:29 12-11-2016",
+      "isHere": "inside",
+      "additionalInfo": "",
+      "howManyTimesWorn": 1
+    },
+    {
+      "id": "22332222",
+      "imgPath": "/clothes_images/8c90b4dcc95281f44738d76915432d9a",
+      "name": "Tshirt",
+      "season": "Winter",
+      "lastTimeWorn": "16:34:45 12-11-2016",
+      "isHere": "inside",
+      "additionalInfo": "",
+      "howManyTimesWorn": 0
+    }
+  ]
+}

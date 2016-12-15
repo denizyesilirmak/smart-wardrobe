@@ -1,0 +1,31 @@
+#weatherInfo {
+	font-style: italic;
+	font-weight: bold;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
+	padding: 5px;
+}
+
+div.clothes {
+  text-align: center;
+}
+
+div.clothes ul {
+  float: left;
+  list-style-type: none;
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 0px auto;
+  text-transform: lowercase;
+  line-height: 100%;
+  font-size: 14pt;
+  font-variant: small-caps;
+}
+
+div.clothes ul li {
+  display: block;
+  padding: 3px;
+  font-style: bold;
+}
