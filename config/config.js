@@ -3,7 +3,7 @@ var config = {
 	viewsPath: '../app/views/',
 	publicPath: '../public/',
 	dbPath: './app/database/',
-	weatherAPIKey: 'YOUR-API-KEY-FROM-DARKSKY-API'
+	weatherAPIKey: 'DARKSKY-API-KEY'
 };
 
 module.exports = config;
